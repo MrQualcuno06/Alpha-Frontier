@@ -4956,6 +4956,196 @@
 			}
 		]
 	},
+{ "name": "StarShip",
+		"unitType": "StarShip",
+		"movement": 10,
+		"strength": 1000,
+		"rangedStrength": 700,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 2000,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Titanium","Antimatter",
+		"uniques": [
+			"[+4] Sight",
+			"[+100]% Strength <vs [All] units>",
+			"[+100]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Satellite Control Center]>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+		]
+// costs 1500 in BNW
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/StarShip",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Where do you want to go without a starship?"
+			} ]
+	},
+{ "name": "Uss Costitution",
+		"unitType": "StarShip",
+	"uniqueto": "Federation of United Planets"
+		"movement": 15,
+		"strength": 1000,
+		"rangedStrength": 700,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 2500,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Titanium","Antimatter",
+		"uniques": [
+			"[+6] Sight",
+			"[+100]% Strength <vs [All] units>",
+			"[+100]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Satellite Control Center]>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+			]
+// costs 1500 in BNW
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/StarShip",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "These phenomenal starships have become the back bone of a rebuilt and strenghtened Federation. Each model in this class is equipped with the best technology the Federation has to offer."
+			} ]
+	},
+{ "name": "Gladius",
+		"unitType": "StarShip",
+	"uniqueto": "Romulan Empire"
+		"movement": 12,
+		"strength": 800,
+		"rangedStrength": 800,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 2500,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Titanium","Antimattter",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"[+5] Sight",
+			"[+100]% Strength <vs [All] units>",
+			"[+100]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Satellite Control Center]>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+			]
+// costs 1500 in BNW
+	"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/StarShip",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Gladius class is a classic romulan interceptor model, built for mobility and rapid changes of direction. The thin hull improves the changes of avoiding enemy torpedoes during an attack."
+			} ]
+	},
+	{ "name": "Bortas",
+		"unitType": "StarShip",
+	"uniqueto": "Klingon Empire"
+		"movement": 7,
+		"strength": 1500,
+		"rangedStrength": 700,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 2500,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Titanium","Antimatter",
+		"uniques": [
+			"[+5] Sight",
+			"[+100]% Strength <vs [All] units>",
+			"[+100]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Satellite Control Center]>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+			]
+// costs 1500 in BNW
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/StarShip",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Bortas class battleship is traditionally found only in the fleet of the Klingon empire and is one of the empire's most recognizable ships. Many of the empire's flagships belonged to this class and were often under the command of the incumbent Chancellor."
+			} ]
+	},
+	{ "name": "Borg Cube",
+		"unitType": "StarShip",
+	"uniqueto": "Borg Collective"
+		"movement": 15,
+		"strength": 2000,
+		"rangedStrength": 800,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 3000,
+		"requiredTech": "Cosmonautics",
+		//"requiredResource": "Titanium","Antimatter",
+		"uniques": [
+			"May capture killed [StarShip] units",
+			"[+6] Sight",
+			"[+100]% Strength <vs [All] units>",
+			"[+100]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Satellite Control Center]>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+			]
+// costs 1500 in BNW"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/StarShip",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Cube is the primary starship of the Borg fleet. The enormous size, power and large number of drones allow it to operate autonomously for long rage misions sush as space exploration and the assimilation of new species. Generally a Cube alone is capable of destroyng the defenses of an entire planet and assimilating every trace of civilization."
+			} ]
+	},
 	{
 		"name": "Stasis Pod Arrays",
 		"unitType": "Civilian",
