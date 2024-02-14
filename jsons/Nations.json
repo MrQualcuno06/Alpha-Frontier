@@ -129,6 +129,66 @@
 	*/
 
 	// Nations
+{
+		"name": "Federation of United Planets",
+		"leaderName": "Admiral James.T.Kirk",
+		"adjective": ["Federal"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Live Long and Prosper",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "The Final Frontier",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Sol",
+			"Vulkan",
+			"Andoria",
+			"Tellar",
+			"Betazed",
+			"Trill",
+			"Deneb",
+			"P'Jem",
+			"Babel",
+			"Wolf-359",
+			"Alpha Centauri",
+			"Sirio",
+			"Denobula Triaxa",
+			"Vega",
+			"Altair",
+			"Archer",
+			"Memory Alpha",
+			"Lorillia",
+			"Terra Nova",
+			"Final Frontier"
+		],
+		"spyNames": [
+			"Kirk",
+			"Spock",
+			"Bones",
+			"Scotty",
+			"Uhura",
+			"Sulu",
+			"Chekov",
+			"Pike",
+			"Hemmer",
+			"M'Benga"
+		]
+	},
 	{
 		"name": "Toma Heavy Industries",
 		"leaderName": "Kirii Toma",
