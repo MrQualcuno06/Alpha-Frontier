@@ -148,7 +148,13 @@
 		"movementType": "Land",
 		"uniques": [ /* "[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked", */ "May travel on Water tiles without embarking"]
 	},
-
+{
+		"name": "StarShip",
+		"movementType": "Land",
+	    "uniques": ["Cannot be intercepted","Can see over obstacles","Unit wiil heal every turn, even if it performs an action","Can move immediately once bought","Can move after Attacking", 
+			"Ranged attacks may be performed over obstacles","May travel on Water tiles without embarking","Air", "Can pass through impassable tiles", /* "[+4] Sight <when [Embarked]>","Defense bonus when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked", */ "May travel on Water tiles without embarking"]
+	
+	},
 	// Deprecated unit types required for mods without a UnitTypes.json file to work
 
 	{
