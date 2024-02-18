@@ -1623,9 +1623,9 @@
 		"cities": ["Candradimuka Engineering"]
 	},
 	{
-		"name": "Vulkan Tech",
+		"name": "Nova Vulkan",
 		"adjective": ["Vulkan"],
-		"cityStateType": "Industrial",
+		"cityStateType": "Scientific",
 		"startBias": ["Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
